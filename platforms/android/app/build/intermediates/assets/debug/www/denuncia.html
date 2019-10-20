@@ -1,0 +1,36 @@
+<div class="page">
+    <div class="header black">
+        <button class="left icon ion-arrow-left-c" onclick="backPage(), criarMapa()"></button>
+        <h1 class="align-center text-strong">Fire Report</h1>
+    </div>
+    
+    <div class="content has-header">
+        <div class="list">
+            <div class="item icon icon ion-clipboard">
+                <input id="obs" class="text-big" type="text" placeholder="Note">
+            </div>
+            <div class="item icon icon ion-ios-location">
+                <input id="local" class="text-big" type="text" placeholder="Address">
+            </div>
+            <div class="item icon icon ion-map">
+                <input id="city" class="text-big" type="text" placeholder="City">
+            </div>
+            <div class="item icon icon ion-android-compass">
+                <input id="estado" class="text-big" type="text" placeholder="State">
+            </div>
+            <div class="item align-center">
+                <button class="black radius icon-text" onclick="tirarFoto()">
+                        <i class="icon ion-camera"></i>
+                        Photos
+                </button>
+                <button class="black radius icon-text" onclick="localizar(), alert('Report made successfully!')">
+                    <i class="icon ion-location"></i>
+                    Locate
+                </button>
+            </div>
+            <div class="item align-center" id="fotoFogo">
+                <img src="img/fogo.jpg" width="80%"/>
+            </div>
+        </div>
+    </div>
+</div>

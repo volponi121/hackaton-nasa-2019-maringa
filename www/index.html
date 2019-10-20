@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mobileui/style.css">
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="utf-8">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6NLEfDPHSnfm91GqRTCz2FHkL48aJlDY"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <title>Stop Fire</title>
+    </head>
+    <body id="conteudo">
+
+        <div class="header black">
+            <h1 class="align-center text-strong">Stop Fire</h1>
+            <button class="left icon ion-navicon" onclick="openMenu('menu')"></button>
+            <button class="right icon ion-android-notifications-none" onclick="alert('Notification sent to fire area authorities and residents!')"></button>
+            <button class="right icon ion-navigate" onclick="criarMapa()"></button>
+        </div>
+    
+        <div class="menu white" id="menu">
+            <div class="list no-border">
+                <div class="item black">
+                    <img src="img/logo.png" width="20%"/>
+                    <h2 class="text-strong">GreenFire</h2>
+                    <p class="text-blue-grey-100">greenfire@nasa.com.br</p>
+                </div>
+            </div>
+    
+            <div class="list">
+                <div class="item" onclick="closeMenu('menu')">
+                    <div class="left">
+                        <i class="icon ion-android-map"></i>
+                    </div>
+                    <h1>Map</h1>
+                </div>
+                <div class="item" onclick="openPage('denuncia'), destruirMapa(), esconderFoto()">  
+                    <div class="left">
+                        <i class="icon ion-alert-circled"></i>
+                    </div>
+                    <h1>Report a fire</h1>
+                </div>
+                <div class="item" onclick="openPage('monitoramento'), destruirMapa()">
+                    <div class="left">
+                        <i class="icon ion-clipboard"></i>
+                    </div>
+                    <h1>Monitoring</h1>
+                </div>
+            </div>
+        </div>
+    
+        <div class="content has-header">
+            <div class="top" id="mapa" style="height: 100%; width: 100%"></div>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="mobileui/mobileui.js"></script>
+        <script type="text/javascript" src="js/map.js"></script> 
+        <script type="text/javascript" src="js/mapEvents.js"></script>
+        <script type="text/javascript" src="js/denuncia.js"></script>
+        <script type="text/javascript" src="js/monitoramento.js"></script>
+    </body>
+</html>

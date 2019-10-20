@@ -1,0 +1,49 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Desenvolvimento\\faculdade\\greenfire\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Luis Fernando\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\7a0bf8acd93cfe25ea49cf4297934330\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Desenvolvimento\\mobileui\\rfphotosellingmobileui\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Luis Fernando\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\7a0bf8acd93cfe25ea49cf4297934330\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\desenvolvimento\\mobileui\\photoSelling\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\luis.fernando\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\19cbc7e31b1c8b10fbca6b63c4fa5c65\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
